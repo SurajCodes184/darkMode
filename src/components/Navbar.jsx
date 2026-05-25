@@ -17,6 +17,7 @@ const Navbar = () => {
             <ul className='flex gap-5 items-center'>
                 <Link to='/'><li className='decoration-none'>Home</li></Link>
                <Link to='/counter'><li className='decoration-none cursor-pointer'>Counter</li></Link>
+               <Link to='/todo'><li className='decoration-none cursor-pointer'>Todo</li></Link>
             </ul>
         </div>
         <div>

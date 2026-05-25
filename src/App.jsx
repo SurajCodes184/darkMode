@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Layout from "./components/Layout";
 import Login from "./components/Login";
+import Todo from "./components/Todo";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path="/counter" element={<Counter />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/todo" element={<Todo />} />
       </Route>
     </Routes>
  
